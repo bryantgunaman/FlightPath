@@ -1,0 +1,6 @@
+module Pods_FlightPath {
+  umbrella header "Pods-FlightPath-umbrella.h"
+
+  export *
+  module * { export * }
+}

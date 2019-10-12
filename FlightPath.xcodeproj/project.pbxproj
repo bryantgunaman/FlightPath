@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		091591D03EC9E6AEC51463C3 /* libPods-FlightPath.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 358D000B2E6CA7814A9703EA /* libPods-FlightPath.a */; };
 		79766F6C23513A9400AA4991 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79766F6B23513A9400AA4991 /* AppDelegate.swift */; };
 		79766F6E23513A9400AA4991 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79766F6D23513A9400AA4991 /* ViewController.swift */; };
 		79766F7123513A9400AA4991 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79766F6F23513A9400AA4991 /* Main.storyboard */; };
@@ -14,6 +15,11 @@
 		79766F7623513A9500AA4991 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79766F7423513A9500AA4991 /* LaunchScreen.storyboard */; };
 		79766F8123513A9500AA4991 /* FlightPathTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79766F8023513A9500AA4991 /* FlightPathTests.swift */; };
 		79766F8C23513A9500AA4991 /* FlightPathUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79766F8B23513A9500AA4991 /* FlightPathUITests.swift */; };
+		79766F9E2351402200AA4991 /* ViewControllerTemplateswift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79766F9D2351402200AA4991 /* ViewControllerTemplateswift.swift */; };
+		79766FA12351614C00AA4991 /* MarkerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79766FA02351614C00AA4991 /* MarkerManager.swift */; };
+		79766FA22351614C00AA4991 /* MarkerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79766FA02351614C00AA4991 /* MarkerManager.swift */; };
+		79766FA32351614C00AA4991 /* MarkerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79766FA02351614C00AA4991 /* MarkerManager.swift */; };
+		79766FA62351644000AA4991 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79766FA52351644000AA4991 /* UIView+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		358D000B2E6CA7814A9703EA /* libPods-FlightPath.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FlightPath.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		79766F6823513A9400AA4991 /* FlightPath.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlightPath.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		79766F6B23513A9400AA4991 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		79766F6D23513A9400AA4991 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +54,11 @@
 		79766F8723513A9500AA4991 /* FlightPathUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlightPathUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		79766F8B23513A9500AA4991 /* FlightPathUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightPathUITests.swift; sourceTree = "<group>"; };
 		79766F8D23513A9500AA4991 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79766F9D2351402200AA4991 /* ViewControllerTemplateswift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerTemplateswift.swift; sourceTree = "<group>"; };
+		79766FA02351614C00AA4991 /* MarkerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkerManager.swift; sourceTree = "<group>"; };
+		79766FA52351644000AA4991 /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
+		847A4A585CC946F6C015B823 /* Pods-FlightPath.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlightPath.debug.xcconfig"; path = "Target Support Files/Pods-FlightPath/Pods-FlightPath.debug.xcconfig"; sourceTree = "<group>"; };
+		D73615A4298A17C870344A2C /* Pods-FlightPath.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlightPath.release.xcconfig"; path = "Target Support Files/Pods-FlightPath/Pods-FlightPath.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				091591D03EC9E6AEC51463C3 /* libPods-FlightPath.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +87,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		17EA791921195A56C4116C64 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				847A4A585CC946F6C015B823 /* Pods-FlightPath.debug.xcconfig */,
+				D73615A4298A17C870344A2C /* Pods-FlightPath.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		2671D6C479D77FC59554D6BE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				358D000B2E6CA7814A9703EA /* libPods-FlightPath.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		79766F5F23513A9400AA4991 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +111,8 @@
 				79766F7F23513A9500AA4991 /* FlightPathTests */,
 				79766F8A23513A9500AA4991 /* FlightPathUITests */,
 				79766F6923513A9400AA4991 /* Products */,
+				17EA791921195A56C4116C64 /* Pods */,
+				2671D6C479D77FC59554D6BE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +129,15 @@
 		79766F6A23513A9400AA4991 /* FlightPath */ = {
 			isa = PBXGroup;
 			children = (
+				79766FA42351642900AA4991 /* Extensions */,
 				79766F6B23513A9400AA4991 /* AppDelegate.swift */,
 				79766F6D23513A9400AA4991 /* ViewController.swift */,
 				79766F6F23513A9400AA4991 /* Main.storyboard */,
 				79766F7223513A9500AA4991 /* Assets.xcassets */,
 				79766F7423513A9500AA4991 /* LaunchScreen.storyboard */,
 				79766F7723513A9500AA4991 /* Info.plist */,
+				79766F9D2351402200AA4991 /* ViewControllerTemplateswift.swift */,
+				79766FA02351614C00AA4991 /* MarkerManager.swift */,
 			);
 			path = FlightPath;
 			sourceTree = "<group>";
@@ -125,6 +160,14 @@
 			path = FlightPathUITests;
 			sourceTree = "<group>";
 		};
+		79766FA42351642900AA4991 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				79766FA52351644000AA4991 /* UIView+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +175,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 79766F9023513A9500AA4991 /* Build configuration list for PBXNativeTarget "FlightPath" */;
 			buildPhases = (
+				834C137B323D416EFF0A88BD /* [CP] Check Pods Manifest.lock */,
 				79766F6423513A9400AA4991 /* Sources */,
 				79766F6523513A9400AA4991 /* Frameworks */,
 				79766F6623513A9400AA4991 /* Resources */,
+				44537AF12B8BC5F64F67B139 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -251,13 +296,58 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		44537AF12B8BC5F64F67B139 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FlightPath/Pods-FlightPath-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FlightPath/Pods-FlightPath-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FlightPath/Pods-FlightPath-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		834C137B323D416EFF0A88BD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FlightPath-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		79766F6423513A9400AA4991 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79766F9E2351402200AA4991 /* ViewControllerTemplateswift.swift in Sources */,
 				79766F6E23513A9400AA4991 /* ViewController.swift in Sources */,
+				79766FA62351644000AA4991 /* UIView+Extensions.swift in Sources */,
 				79766F6C23513A9400AA4991 /* AppDelegate.swift in Sources */,
+				79766FA12351614C00AA4991 /* MarkerManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,6 +356,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				79766F8123513A9500AA4991 /* FlightPathTests.swift in Sources */,
+				79766FA22351614C00AA4991 /* MarkerManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +365,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				79766F8C23513A9500AA4991 /* FlightPathUITests.swift in Sources */,
+				79766FA32351614C00AA4991 /* MarkerManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,16 +522,58 @@
 		};
 		79766F9123513A9500AA4991 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 847A4A585CC946F6C015B823 /* Pods-FlightPath.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 648NTH89JP;
 				INFOPLIST_FILE = FlightPath/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-framework",
+					"\"Accelerate\"",
+					"-framework",
+					"\"CoreData\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"CoreImage\"",
+					"-framework",
+					"\"CoreLocation\"",
+					"-framework",
+					"\"CoreTelephony\"",
+					"-framework",
+					"\"CoreText\"",
+					"-framework",
+					"\"GLKit\"",
+					"-framework",
+					"\"GoogleMaps\"",
+					"-framework",
+					"\"GoogleMapsBase\"",
+					"-framework",
+					"\"GoogleMapsCore\"",
+					"-framework",
+					"\"GooglePlaces\"",
+					"-framework",
+					"\"ImageIO\"",
+					"-framework",
+					"\"OpenGLES\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"UIKit\"",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.FlightPath;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -447,16 +581,58 @@
 		};
 		79766F9223513A9500AA4991 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D73615A4298A17C870344A2C /* Pods-FlightPath.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 648NTH89JP;
 				INFOPLIST_FILE = FlightPath/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-framework",
+					"\"Accelerate\"",
+					"-framework",
+					"\"CoreData\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"CoreImage\"",
+					"-framework",
+					"\"CoreLocation\"",
+					"-framework",
+					"\"CoreTelephony\"",
+					"-framework",
+					"\"CoreText\"",
+					"-framework",
+					"\"GLKit\"",
+					"-framework",
+					"\"GoogleMaps\"",
+					"-framework",
+					"\"GoogleMapsBase\"",
+					"-framework",
+					"\"GoogleMapsCore\"",
+					"-framework",
+					"\"GooglePlaces\"",
+					"-framework",
+					"\"ImageIO\"",
+					"-framework",
+					"\"OpenGLES\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"UIKit\"",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.FlightPath;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
